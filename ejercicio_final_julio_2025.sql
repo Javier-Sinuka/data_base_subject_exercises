@@ -1,3 +1,25 @@
+-- Desarrolle una consulta SQL sobre la base de datos de ejemplo SAKILA
+-- que recupere la actuación de los actores
+-- generando un listado de todos los actores,
+-- cada renglón del listado deberá contener lo siguiente:
+-- Apellido del actor
+-- Nombre del actor
+-- Cantidad total de categorías DIFERENTES de películas que actuó
+-- Categoria en la que se alquilaron mas películas de ese actor.
+-- Cantidad de alquileres que realizó de películas de esa categoría.
+-- Ordenar por la columna CANTIDADALQ ascendente.
+-- APELLIDOACTOR NOMBREACTOR CANTIDADDECATS CATMAYOR CANTIDAD
+-- IMPORTANTE El estado de los datos es uno de los posibles estado de los datos, la consulta debe funcionar cualquiera sea el estado de los
+-- datos.
+-- NO USAR with ni variables.
+-- Se pide una sola consulta, no se evalúan consultas separadas.
+
+-- --------------------------------------------------------------------------------------------------------------------------
+
+-- ESTA SOLUCION NO ES UNA SOLUCION, BASICAMENTE CONTE CUANTAS VECES SE ALQUILO UNA PELICULA RELACIONADA CON UNA CATEGORIA
+-- LA RESPUESTA CORRECTA ESTA ABAJO DE ESTA COMENTADA (LA HIZO GPT, BASICAMENTE ES LO MISMO, SOLO CAMBIA COMO CALCULA 
+-- LA CANTIDAD DE ALQUILERES REALIZADOS)
+
 -- SELECT 
 --     actor.first_name AS 'APELLIDOACTOR',
 --     actor.last_name  AS 'NOMBREACTOR',
